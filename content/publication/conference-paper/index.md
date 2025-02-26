@@ -1,23 +1,23 @@
 ---
-title: 'An example conference paper'
+title: 'Enhancing Home Energy Management: A Day-Ahead Machine Learning Approach Using EMHASS for Predictive Temperature Control'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - M. Draou
+  - A. Brakez
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-02-02T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-02-02T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +25,20 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *Trends in Environmental Sustainability and Green Energy*
+publication_short: In *CGEEE 2024*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This paper presents a comprehensive study on the implementation of a day-ahead machine learning algorithm in residential settings for energy saving purposes. The core of our methodology involves the utilization of the K-Nearest Neighbors (KNN) algorithm for temperature predictions, contributing to the realization of an adaptive and efficient energy management framework. The system collects temperature data at 5-min intervals through temperature sensors, processes it through EMHASS, and trains the KNN model. To address weather-induced variations in thermal energy systems, an automation script checks for foggy conditions, triggering the `tune' endpoint to adapt the KNN model dynamically. Over the month of November, the model has been evaluated on two renewable energy systems, a hot water system and a space heating system. The findings highlight the effectiveness of our approach in predicting thermal energy system's temperature with a coefficient of determination R2 evaluated at 91{\%} for water heating and 68{\%} for space heating. Marking a significant stride in the domain of smart home energy management
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary:
 
 tags:
-  - Large Language Models
+  - Machine learning
+  - KNN
+  - Thermal modeling
+  - EMHASS
+  - HEMS
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,19 +48,19 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: '10.1007/978-3-031-81560-7_15'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: 'https://link.springer.com/chapter/10.1007/978-3-031-81560-7_15#citeas'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'EMHASS KNN Logic'
   focal_point: ''
   preview_only: false
 
@@ -75,13 +79,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

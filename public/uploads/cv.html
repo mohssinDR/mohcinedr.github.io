@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohcine Draou - R&D CV</title>
+    <style>
+        :root {
+            --primary-color: #0075b0;
+            --secondary-color: #f0f0f0;
+            --text-color: #333;
+            --accent-color: #0096c7;
+            --light-gray: #f8f9fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f5f5f5;
+        }
+        
+        .cv-container {
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin: 20px;
+        }
+        
+        .header {
+            padding: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .header-left h1 {
+            font-size: 36px;
+            color: #000;
+            margin-bottom: 5px;
+        }
+        
+        .header-left h2 {
+            font-size: 18px;
+            color: var(--primary-color);
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .contact-item svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            fill: var(--primary-color);
+        }
+        
+        .header-right img {
+            width: 120px;
+            height: 120px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        
+        .main-container {
+            display: flex;
+        }
+        
+        .main-content {
+            flex: 2;
+            padding: 20px;
+            border-right: 1px solid #eee;
+        }
+        
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: var(--light-gray);
+        }
+        
+        .section-title {
+            position: relative;
+            font-size: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+        }
+        
+        .experience-header, .education-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .job-title, .degree {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        .company, .university {
+            font-weight: 500;
+        }
+        
+        .date-location {
+            display: flex;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #777;
+        }
+        
+        .date, .location {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+        
+        .date svg, .location svg {
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+            fill: #777;
+        }
+        
+        ul.responsibilities {
+            list-style-type: none;
+            margin-left: 5px;
+        }
+        
+        ul.responsibilities li {
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 5px;
+        }
+        
+        ul.responsibilities li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .skill-item {
+            background-color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        /* Certificate styling */
+        .certificate-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .certificate-item {
+            background-color: white;
+            border-radius: 6px;
+            padding: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .certificate-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+        }
+        
+        .certificate-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+        
+        .certificate-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .certificate-platform {
+            font-style: italic;
+        }
+        
+        .certificate-date {
+            background-color: var(--light-gray);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+        
+        .certificate-link a {
+            display: inline-flex;
+            align-items: center;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 13px;
+            gap: 5px;
+        }
+        
+        .certificate-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .language-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .language-name {
+            font-weight: 500;
+        }
+        
+        .language-level {
+            font-size: 13px;
+            color: #777;
+        }
+        
+        .language-dots {
+            display: flex;
+            gap: 3px;
+        }
+        
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+        
+        .dot.filled {
+            background-color: var(--primary-color);
+        }
+        
+        .tool-item {
+            margin-bottom: 15px;
+        }
+        
+        .tool-name {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .tool-description {
+            font-size: 14px;
+        }
+        
+        .publications-list {
+            list-style-type: none;
+        }
+        
+        .publications-list li {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        
+        .pub-title {
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        
+        .pub-authors {
+            font-style: italic;
+            margin-bottom: 3px;
+        }
+        
+        .pub-journal {
+            margin-bottom: 3px;
+        }
+        
+        .pub-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .language-switch {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .language-btn {
+            padding: 8px 15px;
+            margin: 0 5px;
+            background-color: var(--light-gray);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        
+        .language-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        /* Language visibility control */
+        .fr {
+            display: none;
+        }
+        
+        .en {
+            display: block;
+        }
+        
+        body.french .fr {
+            display: block;
+        }
+        
+        body.french .en {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-switch">
+        <button class="language-btn active" onclick="setLanguage('english')">English</button>
+        <button class="language-btn" onclick="setLanguage('french')">Français</button>
+    </div>
+
+    <div class="cv-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="header-left">
+                <h1>MOHCINE DRAOU</h1>
+                <h2 class="en">PhD in Energy Engineering</h2>
+                <h2 class="fr">Doctorat en Ingénierie énergétique</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <span>mohssindraou@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        <span>+212 627 810 332</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <span>Marrakech, Ménara</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg>
+                        <span>http://mohcinedraou.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/907af923-bc7e-4f41-98c5-4dc5277ec4d8/oici2/w=1080,quality=90,fit=scale-down" alt="Mohcine Draou" />
+            </div>
+        </div>
+
+        <div class="main-container">
+            <!-- Main Content -->
+            <div class="main-content">
+                <!-- RÉSUMÉ Section -->
+                <div class="resume-section">
+                    <h3 class="section-title en">SUMMARY</h3>
+                    <h3 class="section-title fr">RÉSUMÉ</h3>
+                    <p class="en">
+                        I am a PhD Graduate in the field of energy and thermal engineering. My area of research focuses on energy usage in buildings. With the help of my research group at the ProcEDE Laboratory, we are trying to optimize the renewable energy system's integration and usage within green buildings - TL; DR: Energy Demand Side Management for net Zero Energy Buildings. For more information about the projects I am/was part of as well as the developed tools and applications, I invite you to visit my personal blog or my LinkedIn profile.
+                    </p>
+                    <p class="fr">
+                        Je suis titulaire d'un doctorat en génie énergétique et thermique. Mon domaine de recherche est l'utilisation de l'énergie dans les bâtiments. Avec l'aide de mon groupe de recherche au Laboratoire ProcEDE, nous essayons d'optimiser l'intégration et l'utilisation des systèmes d'énergie renouvelable dans les bâtiments verts - En résumé : Gestion de la demande d'énergie pour les bâtiments à énergie nette zéro. Pour plus d'informations sur les projets dont je fais/j'ai fait partie ainsi que sur les outils et applications développés, j'invite le lecteur à visiter mon blog personnel ou mon profil LinkedIn.
+                    </p>
+                </div>
+
+                <!-- EXPERIENCE Section -->
+                <div class="experience-section">
+                    <h3 class="section-title en">EXPERIENCE</h3>
+                    <h3 class="section-title fr">EXPÉRIENCE</h3>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <div class="job-title en">R&D: Prediction PLAnning and Management of Energy Performance</div>
+                                <div class="job-title fr">R&D: Prediction PLAnning and Management of Energy Performance</div>
+                                <div class="company">PPlaME</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>11/2022 - 12/2024</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Morocco</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en">PPlaME is a project focused on constructing two prototype buildings in Morocco, specifically in the climate of Bengeruir (Hot Climate) and Mount of Oukaimeden (Cold Climate), to assess their energy performances.</li>
+                            <li class="fr">PPlaME est un projet axé sur la construction de deux bâtiments prototypes au Maroc, spécifiquement dans le climat de Bengeruir (Hot Climate) et du mont d'Oukaimeden (Cold Climate), pour évaluer leurs performances énergétiques.</li>
+                            <li class="en">My task is to design solar energy systems for these buildings and implement energy demand side management strategies. The goal is to optimize energy efficiency and sustainability in both prototypes.</li>
+                            <li class="fr">Ma tâche consiste à concevoir des systèmes d'énergie solaire pour ces bâtiments et à mettre en œuvre des stratégies de gestion de la demande énergétique. L'objectif est d'optimiser l'efficacité énergétique et la durabilité dans les deux prototypes.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <div class="job-title en">Research Project: AFRICA-EUROPE BIOCLIMATIC BUILDINGS FOR XXI CENTURY</div>
+                                <div class="job-title fr">Projet de Recherche: AFRICA-EUROPE BIOCLIMATIC BUILDINGS FOR XXI CENTURY</div>
+                                <div class="company">ABC 21</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>09/2020 - 06/2023</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Dar Nassim Project</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en">ABC 21 has gathered a group of specialists already active in reducing the building design and construction material sectors' environmental footprint.</li>
+                            <li class="fr">ABC 21 a rassemblé un groupe de spécialistes déjà actifs dans la réduction de l'empreinte environnementale des secteurs de la conception des bâtiments et des matériaux de construction.</li>
+                            <li class="en">The consortium is made up of researchers, public officers and consulting companies scattered throughout Africa and Europe. ABC 21 gathers a group of building professionals with large experience designing and assessing buildings to achieve high energy and comfort performances.</li>
+                            <li class="fr">Le consortium est composé de chercheurs, de fonctionnaires et de sociétés de conseil répartis en Afrique et en Europe. ABC 21 rassemble un groupe de professionnels du bâtiment ayant une grande expérience dans la conception et l'évaluation de bâtiments pour atteindre des performances énergétiques et de confort élevées.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <div class="job-title en">Internship: Flamme plus (Ex. Eco Plus performance)</div>
+                                <div class="job-title fr">Stage: Flamme plus (Ex. Eco Plus performance)</div>
+                                <div class="company en">Energy Engineer</div>
+                                <div class="company fr">Ingénieur Energéticien</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>09/2018 - 02/2019</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Marrakech</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en">Technical and economic Feasibility, Sizing, and Installation of an 8 kWp photovoltaic system at the secondary school (Lycée Aouda Essaadia) Marrakech.</li>
+                            <li class="fr">Faisabilité technique et économique, dimensionnement et installation d'un système photovoltaïque de 8 kWp au lycée (Lycée Aouda Essaadia) de Marrakech.</li>
+                            <li class="en">Design of HVAC system and quantification of the thermal loads for several buildings (Villas, Hotels, Riads...etc.).</li>
+                            <li class="fr">Conception du système HVAC et quantification des charges thermiques pour plusieurs bâtiments (villas, hôtels, riads...etc.).</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <div class="job-title en">Internship: Heliantha Solar (Ex. ROBOSOL)</div>
+                                <div class="job-title fr">Stage: Heliantha Solar (Ex. ROBOSOL)</div>
+                                <div class="company en">Apprenticeship</div>
+                                <div class="company fr">Apprentissage</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>06/2017 - 08/2017</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Rabat</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en">Management of an online store selling solar energy systems products and solutions for homeowners and farmers.</li>
+                            <li class="fr">Gestion d'une boutique en ligne vendant des produits et solutions de systèmes d'énergie solaire pour les propriétaires et les agriculteurs.</li>
+                            <li class="en">Creation and monitoring of Facebook advertising campaigns.</li>
+                            <li class="fr">Création et suivi de campagnes publicitaires sur Facebook.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- EDUCATION Section -->
+                <div class="education-section">
+                    <h3 class="section-title en">EDUCATION</h3>
+                    <h3 class="section-title fr">FORMATION</h3>
+
+                    <div class="education-item">
+                        <div class="education-header">
+                            <div>
+                                <div class="degree en">PhD in Energy Engineering</div>
+                                <div class="degree fr">Doctorat en Génie énergétique</div>
+                                <div class="university">ProcEDE Laboratory, Cadi Ayyad University (FSTG)</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>01/2021 - 01/2024</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Marrakech, Morocco</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en"><strong>Research Topic:</strong> Energy demand side management and thermal energy storage of a residential hot water tank using excess photovoltaic production.</li>
+                            <li class="fr"><strong>Sujet de recherche:</strong> Gestion de la demande d'énergie et stockage thermique d'un réservoir d'eau chaude résidentiel utilisant une production photovoltaïque excédentaire.</li>
+                            <li class="en"><strong>Summary:</strong> The objective of this thesis is to develop a control strategy to maximize photovoltaic self-consumption in a residential context by exploiting the flexible demand of an electric water heater. For this, a water heater model and a forecast of hot water consumption is used to predict the future temperature of the water and manage its state (on and off) according to the photovoltaic excess energy.</li>
+                            <li class="fr"><strong>Résumé:</strong> L'objectif de cette thèse est de développer une stratégie de contrôle pour maximiser l'autoconsommation photovoltaïque dans un contexte résidentiel en exploitant la demande flexible d'un chauffe-eau électrique. Pour cela, un modèle de chauffe-eau et une prévision de consommation d'eau chaude sont utilisés pour prédire la température future de l'eau et gérer son état (marche et arrêt) en fonction de l'excès d'énergie photovoltaïque.</li>
+                            <li class="en"><strong>Scholarship:</strong> PPlaME Project. (UCA, UM6P, AUI, GEP, OCP, CNRST)</li>
+                            <li class="fr"><strong>Bourse:</strong> Projet PPlaME. (UCA, UM6P, AUI, GEP, OCP, CNRST)</li>
+                        </ul>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-header">
+                            <div>
+                                <div class="degree en">Master's degree in Water, Energy and Environmental Sciences</div>
+                                <div class="degree fr">Master en science de l'Eau, de l'Energie et de l'Environnement</div>
+                                <div class="university en">High national school of Arts and Crafts, Rabat (ENSAM)</div>
+                                <div class="university fr">Ecole Nationale Supérieure d'Arts et Métiers, Rabat (ENSAM)</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>01/2019 - 05/2021</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Rabat, Morocco</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en"><strong>Research Internship:</strong> (November 2020-May 2021) Laboratory of Processes for Sustainable Energy and the Environment (ProcEDE)</li>
+                            <li class="fr"><strong>Stage de recherche:</strong> (novembre 2020-mai 2021) Laboratoire des processus pour l'énergie durable et l'environnement (ProcEDE)</li>
+                            <li class="en"><strong>Supervisor:</strong> BRAKEZ Abderrahim (ProcEDE Laboratory)</li>
+                            <li class="fr"><strong>Encadrant:</strong> BRAKEZ Abderrahim (Laboratoire ProcEDE)</li>
+                            <li class="en"><strong>Topic:</strong> A techno-economic assessment has been conducted through numerical simulations of domestic hot water production for the six climatic zones of the Moroccan territory.</li>
+                            <li class="fr"><strong>Thème:</strong> Une évaluation technico-économique a été réalisée à travers des simulations numériques de la production d'eau chaude sanitaire pour les six zones climatiques du territoire marocain.</li>
+                        </ul>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-header">
+                            <div>
+                                <div class="degree en">Bachelor's degree in Energy Efficiency and Renewable Energies</div>
+                                <div class="degree fr">Licence en Efficacité Energétique et Energies Renouvelables</div>
+                                <div class="university en">Faculty of Sciences SEMLALIA, Marrakech (FSSM)</div>
+                                <div class="university fr">Faculté Des Sciences Semlalia, Marrakech (FSSM)</div>
+                            </div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+                                <span>01/2014 - 01/2018</span>
+                            </div>
+                            <div class="location">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>Marrakech</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li class="en"><strong>Graduation Project:</strong> A Python-based decision-making tool for photovoltaic self-consumption (see: Nassim Autoconsommation 2019)</li>
+                            <li class="fr"><strong>Projet de fin d'études:</strong> un outil de décision basé sur Python pour l'autoconsommation photovoltaïque (voir : Nassim Autoconsommation 2019)</li>
+                            <li class="en"><strong>Supervisor:</strong> BRAKEZ Abderrahim</li>
+                            <li class="fr"><strong>Encadrant:</strong> BRAKEZ Abderrahim</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Publications Section -->
+                <div class="publications-section">
+                    <h3 class="section-title en">COMMUNICATIONS AND PUBLICATIONS</h3>
+                    <h3 class="section-title fr">COMMUNICATIONS ET PUBLICATIONS</h3>
+
+                    <h4 class="en">Journal Articles</h4>
+                    <h4 class="fr">Articles de journal</h4>
+                    <ul class="publications-list">
+                        <li>
+                            <div class="pub-title">Techno-economic feasibility assessment of a photovoltaic water heating storage system for self-consumption improvement purposes</div>
+                            <div class="pub-authors">DRAOU M, Brakez A, Bennouna A.</div>
+                            <div class="pub-journal">J Energy Storage 2024;76</div>
+                            <div class="pub-link"><a href="https://doi.org/10.1016/j.est.2023.109545" target="_blank">https://doi.org/10.1016/j.est.2023.109545</a></div>
+                        </li>
+                        <li>
+                            <div class="pub-title">Multi-Objective Optimization of a Diverter-Driven Photovoltaic Water Heater: A Residential Case Study in Morocco</div>
+                            <div class="pub-authors">DRAOU M, BRAKEZ A.</div>
+                            <div class="pub-journal">Appl Therm Eng 2024;242:122500</div>
+                            <div class="pub-link"><a href="https://doi.org/10.1016/j.applthermaleng.2024.122500" target="_blank">https://doi.org/10.1016/j.applthermaleng.2024.122500</a></div>
+                        </li>
+                        <li>
+                            <div class="pub-title">Prediction of residential building occupancy using Machine learning with integrated sensor and survey Data: Insights from a living lab in Morocco</div>
+                            <div class="pub-authors">BOUYAKHSAINE K, BRAKEZ A, DRAOU M.</div>
+                            <div class="pub-journal">Energy and Buildings 2024, p. 114519</div>
+                            <div class="pub-link"><a href="https://doi.org/10.1016/j.enbuild.2024.114519" target="_blank">https://doi.org/10.1016/j.enbuild.2024.114519</a></div>
+                        </li>
+                    </ul>
+
+                    <h4 class="en">Conferences proceedings</h4>
+                    <h4 class="fr">Actes de conférences</h4>
+                    <ul class="publications-list">
+                        <li>
+                            <div class="pub-title">Enhancing Home Energy Management: A Day-ahead Machine Learning Approach Using EMHASS for Predictive Temperature Control</div>
+                            <div class="pub-authors">DRAOU M, BRAKEZ A</div>
+                            <div class="pub-journal">7th International Conference on Green Energy and Environment Engineering (CGEEE 2024), Seoul, South Korea, Jul. 2024</div>
+                            <div class="pub-link"><a href="http://dx.doi.org/10.1007/978-3-031-81560-7_15" target="_blank">http://dx.doi.org/10.1007/978-3-031-81560-7_15</a></div>
+                        </li>
+                        <li>
+                            <div class="pub-title">Data-Driven Approach for Residential Occupancy Modeling Using PIR Sensors: A Moroccan Case Study</div>
+                            <div class="pub-authors">Bouyakhsaine K, Brakez A, Draou M.</div>
+                            <div class="pub-journal">2023, p. 01–6</div>
+                            <div class="pub-link"><a href="https://doi.org/10.1109/cloudtech58737.2023.10366071" target="_blank">https://doi.org/10.1109/cloudtech58737.2023.10366071</a></div>
+                        </li>
+                        <li>
+                            <div class="pub-title">Exploring BIM and Energy Analysis Potential of Binayate Software Tools for Energy Retrofit Purpose</div>
+                            <div class="pub-authors">R. Afa, A. Brakez, I. Sobhy, M. Draou</div>
+                            <div class="pub-journal">IRSEC'21</div>
+                            <div class="pub-link"><a href="https://doi.org/10.1109/IRSEC53969.2021.9741194" target="_blank">https://doi.org/10.1109/IRSEC53969.2021.9741194</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Training/Courses Section -->
+                <div class="training-section">
+                    <h3 class="section-title en">TRAINING / COURSES</h3>
+                    <h3 class="section-title fr">FORMATION</h3>
+                    
+                    <div class="certificate-container">
+                        <div class="certificate-item">
+                            <div class="certificate-title">Energy Simulations using Ladybug Tools + Grasshopper</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">Udemy</span>
+                                <span class="certificate-date">Dec 2023</span>
+                            </div>
+                            <div class="certificate-link">
+                                <a href="http://ude.my/UC-7eeaa7d9-65b4-42c1-9506-6291863fe454" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-item">
+                            <div class="certificate-title">Buildings and energy efficiency</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">Offenburg University of Applied Sciences, GEP Morocco</span>
+                                <span class="certificate-date">May 2023</span>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-item">
+                            <div class="certificate-title">CFD simulations in COMSOL Multiphysics</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">Udemy</span>
+                                <span class="certificate-date">Jan 2025</span>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-item">
+                            <div class="certificate-title">Mastering TRNSYS</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">Udemy</span>
+                                <span class="certificate-date">Sep 2021</span>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-item">
+                            <div class="certificate-title">Intermediate Machine Learning, Feature Engineering, Data Visualization</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">Kaggle</span>
+                                <span class="certificate-date">Jan 2022</span>
+                            </div>
+                            <div class="certificate-link">
+                                <a href="https://www.kaggle.com/learn/certification/draoumohcine/intermediate-machine-learning" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-item">
+                            <div class="certificate-title">Writing in the Sciences</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">Stanford University (Coursera)</span>
+                                <span class="certificate-date">Jun 2022</span>
+                            </div>
+                            <div class="certificate-link">
+                                <a href="https://www.coursera.org/verify/YEAE2NPSW69Z" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-item">
+                            <div class="certificate-title">English for Science, Technology, and Mathematics (STEM)</div>
+                            <div class="certificate-info">
+                                <span class="certificate-platform">The Online Professional English Network (U.S. Government)</span>
+                                <span class="certificate-date">Dec 2021</span>
+                            </div>
+                            <div class="certificate-link">
+                                <a href="https://aee-teacher.badgr.com/public/assertions/yWnaQyTMR_uCAF0IRoZbXQ" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Developed Tools Section -->
+                <div class="tools-section">
+                    <h3 class="section-title en">DEVELOPED TOOLS</h3>
+                    <h3 class="section-title fr">OUTILS DÉVELOPPÉS</h3>
+
+                    <div class="tool-item">
+                        <div class="tool-name">Nassim Autoconsommation (2019)</div>
+                        <div class="tool-description en">A tool written in Python whose goal is to generate a schedule for each household appliance in order to maximize the self-consumption rate. The algorithm shifts the load profile of each consumer according to the prediction of photovoltaic production generated from a meteorological API.</div>
+                        <div class="tool-description fr">Un outil écrit en Python dont le but est de générer un planning pour chaque appareil ménager afin de maximiser le taux d'autoconsommation. L'algorithme déplace le profil de charge de chaque consommateur en fonction de la prévision de production photovoltaïque générée à partir d'une API météorologique.</div>
+                    </div>
+
+                    <div class="tool-item">
+                        <div class="tool-name">Nassim Home (2021-2024)</div>
+                        <div class="tool-description en">Implementation of a home automation system through an open-source operating system (Home Assistant), for intelligent energy management as an everyday scenario of Nassim Autoconsommation. In parallel, an approach based on machine learning (ML) algorithms, was applied to the real data generated by Nassim Home (Energy, Temperature, Lighting... Etc.). The aim was to set up a day-ahead machine learning methodology.</div>
+                        <div class="tool-description fr">Mise en œuvre d'un système domotique à travers un système d'exploitation open-source (Home Assistant), pour une gestion intelligente de l'énergie comme scénario quotidien de Nassim Autoconsommation. En parallèle, une approche basée sur des algorithmes de machine learning (ML), a été appliquée aux données réelles générées par Nassim Home (Energie, Température, Eclairage... etc.). L'objectif était de mettre en place une méthodologie d'apprentissage automatique jour-veille.</div>
+                    </div>
+
+                    <div class="tool-item">
+                        <div class="tool-name">PVfitlab.com (2025)</div>
+                        <div class="tool-description en">An online tool targeting professionals of the Photovoltaic industry. The aim is to provide an intuitive and comprehensive tool for sizing residential grid-tied PV systems. The webapp includes sizing strategies, load shifting approach, economic assessments and more.</div>
+                        <div class="tool-description fr">Un outil en ligne ciblant les professionnels de l'industrie photovoltaïque. L'objectif est de fournir un outil intuitif et complet pour le dimensionnement des systèmes photovoltaïques résidentiels reliés au réseau. La webapp comprend des stratégies de dimensionnement, une approche de déplacement de charge, des évaluations économiques et plus encore.</div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h3 class="section-title en">SKILLS</h3>
+                    <h3 class="section-title fr">COMPÉTENCES</h3>
+
+                    <div class="skills-container">
+                        <div class="skill-item">ANSYS</div>
+                        <div class="skill-item">CFD</div>
+                        <div class="skill-item">COMSOL Multiphysics</div>
+                        <div class="skill-item">Ladybug tools</div>
+                        <div class="skill-item">HVAC</div>
+                        <div class="skill-item">MATLAB</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">RETScreen</div>
+                        <div class="skill-item">Home Assistant</div>
+                        <div class="skill-item">TRNSYS</div>
+                        <div class="skill-item">Open Studio</div>
+                        <div class="skill-item">Energyplus</div>
+                        <div class="skill-item">PVgis</div>
+                        <div class="skill-item">PVlib</div>
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">InfluxDB</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">HTML/CSS</div>
+                        <div class="skill-item">PHP</div>
+                        <div class="skill-item">Node-RED</div>
+                    </div>
+                </div>
+
+                <!-- Languages Section -->
+                <div class="languages-section">
+                    <h3 class="section-title en">LANGUAGES</h3>
+                    <h3 class="section-title fr">LANGUES</h3>
+
+                    <div class="language-item">
+                        <div class="language-info">
+                            <div class="language-name">English</div>
+                            <div class="language-level en">Advanced 6 (American Language Center Marrakech)</div>
+                            <div class="language-level fr">Advanced 6 (American Language Center Marrakech)</div>
+                        </div>
+                        <div class="language-dots">
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-info">
+                            <div class="language-name">Français</div>
+                            <div class="language-level en">B2 (Institute française Marrakech) C1 (Rosetta Stone)</div>
+                            <div class="language-level fr">B2 (Institute française Marrakech) C1 (Rosetta Stone)</div>
+                        </div>
+                        <div class="language-dots">
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-info">
+                            <div class="language-name">Darija</div>
+                            <div class="language-level">Native</div>
+                        </div>
+                        <div class="language-dots">
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function setLanguage(lang) {
+            const body = document.body;
+            const buttons = document.querySelectorAll('.language-btn');
+            
+            if (lang === 'french') {
+                body.classList.add('french');
+                buttons[0].classList.remove('active');
+                buttons[1].classList.add('active');
+            } else {
+                body.classList.remove('french');
+                buttons[0].classList.add('active');
+                buttons[1].classList.remove('active');
+            }
+        }
+    </script>
+</body>
+</html>

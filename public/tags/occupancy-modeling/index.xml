@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Occupancy Modeling | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/occupancy-modeling/</link>
+      <atom:link href="http://localhost:1313/tags/occupancy-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Occupancy Modeling</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Occupancy Modeling</title>
+      <link>http://localhost:1313/tags/occupancy-modeling/</link>
+    </image>
+    
+    <item>
+      <title>Prediction of residential building occupancy using Machine learning with integrated sensor and survey Data: Insights from a living lab in Morocco</title>
+      <link>http://localhost:1313/publication/journal-article-occupancy/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-article-occupancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Approach for Residential Occupancy Modeling Using PIR Sensors: A Moroccan Case Study</title>
+      <link>http://localhost:1313/publication/conference-paper-occupancy/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-occupancy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

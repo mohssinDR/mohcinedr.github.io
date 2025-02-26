@@ -1,17 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+#title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Mohcine Draou
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Mohcine
+last_name: Draou
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +16,200 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: R2 - Recognised Researcher
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: OpenAI
-    url: https://openai.com/
+#organizations:
+#  - name: OpenAI
+#    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:mohssindraou@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/Dr_Mohcine
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/mohssinDR
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/mohcinedraou/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=hnFkesIAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-9563-895X
+  - icon: kaggle_logo
+    url: https://www.kaggle.com/draoumohcine
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Energy and Thermal Engineering
+  - Machine learning and IoT
+  - '<a href="https://www.exophase.com/user/RaisLghanjo/" target="_blank">Gaming</a>'
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Energy Engineering
+    institution: Cadi Ayyad University
+    date_start: 2021-11-15
+    date_end: 2025-01-16
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      ENERGY DEMAND SIDE MANAGEMENT AND THERMAL ENERGY STORAGE OF A RESIDENTIAL HOT WATER TANK USING EXCESS PHOTOVOLTAIC PRODUCTION. Supervised by [Prof Abderrhaim Brakez](https://www.researchgate.net/profile/Abderrahim-Brakez).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      url: 'https://www.researchgate.net/publication/388780764_ENERGY_DEMAND_SIDE_MANAGEMENT_AND_THERMAL_ENERGY_STORAGE_OF_A_RESIDENTIAL_HOT_WATER_TANK_USING_EXCESS_PHOTOVOLTAIC_PRODUCTION'
+  - area: Master's degree in Water, Energy and Environmental Sciences
+    institution: High national school of Arts and Crafts, Rabat (ENSAM)
+    date_start: 2019-09-01
+    date_end: 2021-07-31
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Research Internship: (November 2020-May 2021) Laboratory of Processes for Sustainable Energy and the Environment (ProcEDE)
+      - Supervisor: BRAKEZ Abderrahim (ProcEDE Laboratory)
+      - Topic: A techno-economic assessment of renewable hot water production for the six climatic zones of the Moroccan territory.
+  - area: Bachelor's degree in Energy Efficiency and Renewable Energies
+    institution: Faculty of Sciences SEMLALIA, Marrakech (FSSM)
+    date_start: 2014-09-01
+    date_end: 2018-07-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Graduation Project: A Python-based decision-making tool for photovoltaic self-consumption (see: Nassim Autoconsommation 2019)
+      - Supervisor: BRAKEZ Abderrahim
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: R&D, Prediction PLAnning and Management of Energy Performance
+    company_name: PPlaME
+    company_url: 'https://iresen.org/pplame/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2022-07-01
+    date_end: 2025-01-16
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - PPlaME is a project focused on constructing two prototype buildings in Morocco, specifically in the climate of Bengeruir (Hot Climate) and Mount of Oukaimeden (Cold Climate), to assess their energy performances.
+      - My task is to design solar energy systems for these buildings and implement energy demand side management strategies. The goal is to optimize energy efficiency and sustainability in both prototypes.
+  - position: R&D, AFRICA-EUROPE BIOCLIMATIC BUILDINGS FOR XXI CENTURY
+    company_name: ABC 21
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 
+    date_end: 2023-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - ABC 21 has gathered a group of specialists already active in reducing the building design and construction material sectors' environmental footprint.
+      - The consortium is made up of researchers, public officers and consulting companies scattered throughout Africa and Europe. ABC 21 gathers a group of building professionals with large experience designing and assessing buildings to achieve high energy and comfort performances.
+
+  - position: Internship Energy Engineer, Flamme plus (Ex. Eco Plus performance)
+    company_name: Flamme plus
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-09-15
+    date_end: 2019-02-15
+    summary: |
+      - Technical and economic Feasibility, Sizing, and Installation of an 8 kWp photovoltaic system at the secondary school (Lycée Aouda Essaadia) Marrakech.
+      - Design of HVAC system and quantification of the thermal loads for several buildings (Villas, Hotels, Riads...etc.).
+
+  - position: Internship, Heliantha Solar (Ex. ROBOSOL)
+    company_name: Heliantha Solar
+    company_url: ''
+    company_logo: ''
+    date_start: 2017-06-01
+    date_end: 2017-08-01
+    summary: |
+      - Management of an online store selling solar energy systems products and solutions for homeowners and farmers.
+      - Creation and monitoring of Facebook advertising campaigns.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
+      - name: Programming
+        description: 'Pyhton, JS, YAML, MATLAB..'
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
+      - name: Techno-economics
+        description: 'Renewables, feasibilitty studies, exergy..'
         percent: 100
         icon: chart-bar
-      - name: SQL
-        description: ''
+      - name: HEMS
+        description: 'Home Energy Management Systems'
         percent: 40
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
+      - name: Astronomy
+        description: 'But I need to buy a ZWO Seestar S50 Smart Digital Telescope'
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
+        icon: camera
+      - name: Ancient Civilizations
+        description: 'As someone fascinated by ancient civilizations, I’ve realized that hauling multi-ton stones isn’t some grand conspiracy. It’s just remarkable engineering, OR, lost technology.. '
         percent: 100
         icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+
 
 languages:
   - name: English
+    percent: 85
+  - name: French
+    percent: 85
+  - name: Spanish
+    percent: 10
+  - name: Darija
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Energy Simulations using Ladybug Tools + Grasshopper
+    url: https://www.udemy.com/certificate/UC-7eeaa7d9-65b4-42c1-9506-6291863fe454/
+    certificate_url: https://www.udemy.com/certificate/UC-7eeaa7d9-65b4-42c1-9506-6291863fe454/
+    date: '2023-12-03'
+    awarder: Udemy
+    icon: logo-udemy
+  - title: Buildings and energy efficiency
+    url: https://ines.hs-offenburg.de/en/institute-of-energy-systems-technology-ines/translate-to-english-ines-news/article/village-school-stellt-lehrprojekt-zum-nachhaltigen-bauen-im-laendlichen-raum-vor
+    date: '2023-05-01'
+    awarder: Offenburg University of Applied Sciences, GEP Morocco
+
+  - title: CFD simulations in COMSOL Multiphysics
+    url: https://www.udemy.com/certificate/UC-bb10b184-98e4-41d7-b190-7cb772f38f0a/
+    certificate_url: https://www.udemy.com/certificate/UC-bb10b184-98e4-41d7-b190-7cb772f38f0a/
+    date: '2025-01-01'
+    awarder: Udemy
+    icon: logo-udemy
+
+  - title: Mastering TRNSYS
+    url: 
+    certificate_url: 
+    date: '2021-09-01'
+    awarder: Udemy
+    icon: logo-udemy
+
+  - title: Intermediate Machine Learning, Feature Engineering, Data Visualization
+    url: https://www.kaggle.com/learn/certification/draoumohcine/intermediate-machine-learning
+    certificate_url: https://www.kaggle.com/learn/certification/draoumohcine/intermediate-machine-learning
+    date: '2021-10-02'
+    awarder: Kaggle
+    icon: kaggle_logo
+
+  - title: Writing in the Sciences
+    url: https://www.coursera.org/account/accomplishments/verify/YEAE2NPSW69Z
+    certificate_url: https://www.coursera.org/account/accomplishments/verify/YEAE2NPSW69Z
+    date: '2022-06-22'
+    awarder: Stanford University (Coursera)
     icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
+  - title: English for Science, Technology, and Mathematics (STEM)
+    url: https://aee-teacher.badgr.com/public/assertions/yWnaQyTMR_uCAF0IRoZbXQ
+    certificate_url: https://aee-teacher.badgr.com/public/assertions/yWnaQyTMR_uCAF0IRoZbXQ
+    date: '2022-06-22'
+    awarder: The Online Professional English Network (U.S. Government)
+
+
+
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hey🙋‍♂️! It’s me Mohcine Draou, a PhD Graduate in the field of energy and thermal engineering. My research mainly focuses on energy usage in the residential sector. With the help of my research group, we are trying to optimize the renewable energy system’s integration and usage within green buildings. In this blog, I share my latest scientific Publications, Projects I’m involved in as well as the set of Tools and approaches we are developing.

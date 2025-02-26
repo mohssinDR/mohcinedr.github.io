@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Energy Modeling | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/energy-modeling/</link>
+      <atom:link href="http://localhost:1313/tags/energy-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Energy Modeling</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Energy Modeling</title>
+      <link>http://localhost:1313/tags/energy-modeling/</link>
+    </image>
+    
+    <item>
+      <title>Multi-objective optimization of a diverter-driven photovoltaic water heater: A residential case study in Morocco</title>
+      <link>http://localhost:1313/publication/journal-article-optimization/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-article-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techno-economic feasibility assessment of a photovoltaic water heating storage system for self-consumption improvement purposes</title>
+      <link>http://localhost:1313/publication/journal-article-pvwh/</link>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-article-pvwh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

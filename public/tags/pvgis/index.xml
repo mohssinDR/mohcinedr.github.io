@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PVgis | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/pvgis/</link>
+      <atom:link href="http://localhost:1313/tags/pvgis/index.xml" rel="self" type="application/rss+xml" />
+    <description>PVgis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>PVgis</title>
+      <link>http://localhost:1313/tags/pvgis/</link>
+    </image>
+    
+    <item>
+      <title>PVfitlab.com</title>
+      <link>http://localhost:1313/project/pvfitlab2025/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/pvfitlab2025/</guid>
+      <description>&lt;p&gt;An online tool targeting professionals of the Photovoltaic industry. The aim is to provide an intuitive and comprehensive tool for sizing residential grid-tied PV systems. The webapp includes sizing strategies, load shifting approach, economic assessments and more..&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-main-dashboard-showing-project-informations&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;PVfitlab Project &#34; srcset=&#34;
+               /project/pvfitlab2025/pvfitlab1_hu_573218cfc2f9d8cb.webp 400w,
+               /project/pvfitlab2025/pvfitlab1_hu_247b385804fdc5f5.webp 760w,
+               /project/pvfitlab2025/pvfitlab1_hu_c3563d6ab36ac79c.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/pvfitlab2025/pvfitlab1_hu_573218cfc2f9d8cb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;343&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Main dashboard showing project informations
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-appliances-modal-for-household-power-demand-modeling&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;PVfitlab Appliances  &#34; srcset=&#34;
+               /project/pvfitlab2025/pvfitlab3_hu_929340ffdc981589.webp 400w,
+               /project/pvfitlab2025/pvfitlab3_hu_ffb796f6a8ecdf24.webp 760w,
+               /project/pvfitlab2025/pvfitlab3_hu_459c057b8e9d4b28.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/pvfitlab2025/pvfitlab3_hu_929340ffdc981589.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;291&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Appliances modal for household power demand modeling
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

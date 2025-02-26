@@ -1,7 +1,8 @@
 ---
-title: "An example preprint / working paper"
+title: "Impact of insulation and natural ventilation on the thermal performances of a west-facing bioclimatic building"
 authors:
-- admin
+- M. Draou,
+- A. Brakez
 date: "2019-04-07T00:00:00Z"
 doi: ""
 
@@ -17,27 +18,24 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Energy consumption in the residential sector in Morocco has been on the rise in recent years due to the country's growing population and economic development. A significant portion of this energy consumption is attributed to HVAC (Heating, Ventilation, and Air Conditioning) systems. To address this issue, there is a need for greater awareness and adoption of passive cooling and heating strategies, cost-effective insulation materials as well as energy efficient HVAC systems and practices in Moroccan households. In this regard, this study deals with the thermal assessment of one of the ABC21 bioclimatic buildings. In particular, the Dar Nassim case study which is located in Marrakech, Morocco. Since the building is west-faced, an exterior combination of wood and extruded polystyrene layers was added to the façade. Similarly, an interior combination of wood and fiberglass has been applied to the walls within the living room (Salon). This new configuration was assessed by the mean of several dynamic simulations using the OpenStudio software. In order to validate the model, the building has been monitored for a 1-year period, using smart temperature and humidity sensors. As results, the façade inside temperature has been attenuated by an average of 1- 4 °C respectively to the cold and hot season. Also, the building’s annual thermal load decreases from 26.6 to 25.58 kWh/m².y. Additionally, the natural ventilation was taken into consideration in the modelling phase. As result, the simulations show significant indoor temperature drops especially in the summer. In conclusion, for the 1- year period where the building was monitored and assessed, Dar Nassim was able to maintain an adequate indoor temperature by the mean of a judicious combination of insulation materials. In addition, the natural ventilation has been addressed as a passive cooling strategy that occupants could adopt in the hot season.
+
+
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
-- Large Language Models
+- Building Energy Modeling
+- Open Studio 
+- Energy Plus
+
 
 featured: true
 
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_pdf: 'https://dx.doi.org/10.2139/ssrn.4706447'
+url_source: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4706447'
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

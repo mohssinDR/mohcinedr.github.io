@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BIM/BEM Modeling | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/bim/bem-modeling/</link>
+      <atom:link href="http://localhost:1313/tags/bim/bem-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>BIM/BEM Modeling</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>BIM/BEM Modeling</title>
+      <link>http://localhost:1313/tags/bim/bem-modeling/</link>
+    </image>
+    
+    <item>
+      <title>Exploring BIM and Energy Analysis Potential of Binayate Software Tools for Energy Retrofit Purposes</title>
+      <link>http://localhost:1313/publication/conference-paper-bim/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-bim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

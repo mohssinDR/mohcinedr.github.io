@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solcast API | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/solcast-api/</link>
+      <atom:link href="http://localhost:1313/tags/solcast-api/index.xml" rel="self" type="application/rss+xml" />
+    <description>Solcast API</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Solcast API</title>
+      <link>http://localhost:1313/tags/solcast-api/</link>
+    </image>
+    
+    <item>
+      <title>Nassim Autoconsommation</title>
+      <link>http://localhost:1313/project/autoconsommation2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/autoconsommation2019/</guid>
+      <description>&lt;p&gt;A tool written in Python whose goal is to generate a schedule for each household appliance to maximize PV self-consumption. The algorithm shifts the load profile of each appliance according to either historical data or predicted photovoltaic data using meteorological API calls. The tool also includes an Economic tab for feasibility assessments. This tool might be soon shared on a GitHub respiratory as an open source project.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/lKe5igKpyZs?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Appliances scheduling according to PV predictions &amp;amp; historical data. Autoconsommation Photovoltaïque&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HEMS | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/hems/</link>
+      <atom:link href="http://localhost:1313/tags/hems/index.xml" rel="self" type="application/rss+xml" />
+    <description>HEMS</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>HEMS</title>
+      <link>http://localhost:1313/tags/hems/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Home Energy Management: A Day-Ahead Machine Learning Approach Using EMHASS for Predictive Temperature Control</title>
+      <link>http://localhost:1313/publication/conference-paper/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Approach for Residential Occupancy Modeling Using PIR Sensors: A Moroccan Case Study</title>
+      <link>http://localhost:1313/publication/conference-paper-occupancy/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-occupancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nassim Home</title>
+      <link>http://localhost:1313/project/nassimhome2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/nassimhome2021/</guid>
+      <description>&lt;p&gt;Implementation of a home energy management system (HEMS) through an open-source operating system called Home Assistant, for intelligent energy management as an everyday application scenario of Nassim Autoconsommation. The installation of the HEMS in the Nassim house made it possible to improve comfort, energy efficiency, facilitate everyday tasks and manage safety, lighting, heating and air conditioning systems.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-main-dashboard-showing-energy-usage-and-home-controls&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Home Assistant Dashboard&#34; srcset=&#34;
+               /project/nassimhome2021/HA_interface_hu_a15e2438e52ed6d9.webp 400w,
+               /project/nassimhome2021/HA_interface_hu_cc6fb5d58eb526c6.webp 760w,
+               /project/nassimhome2021/HA_interface_hu_8eb20b402a7e565e.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/nassimhome2021/HA_interface_hu_a15e2438e52ed6d9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;369&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Main dashboard showing energy usage and home controls
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-svg-based-dynamic-visuals-showcasing-power-flows&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Home Assistant Solar systems&#34; srcset=&#34;
+               /project/nassimhome2021/HA_solar_systems_hu_9845dd031c9fec35.webp 400w,
+               /project/nassimhome2021/HA_solar_systems_hu_50a55b89304c8de0.webp 760w,
+               /project/nassimhome2021/HA_solar_systems_hu_30090dcadfba988f.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/nassimhome2021/HA_solar_systems_hu_9845dd031c9fec35.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;465&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      SVG based dynamic visuals showcasing power flows
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Paper-Conference</title>
+      <link>http://localhost:1313/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Home Energy Management: A Day-Ahead Machine Learning Approach Using EMHASS for Predictive Temperature Control</title>
+      <link>http://localhost:1313/publication/conference-paper/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Approach for Residential Occupancy Modeling Using PIR Sensors: A Moroccan Case Study</title>
+      <link>http://localhost:1313/publication/conference-paper-occupancy/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-occupancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring BIM and Energy Analysis Potential of Binayate Software Tools for Energy Retrofit Purposes</title>
+      <link>http://localhost:1313/publication/conference-paper-bim/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-bim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

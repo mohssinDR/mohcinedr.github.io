@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wowchemy | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/wowchemy/</link>
+      <atom:link href="http://localhost:1313/tags/wowchemy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wowchemy</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Wowchemy</title>
+      <link>http://localhost:1313/tags/wowchemy/</link>
+    </image>
+    
+    <item>
+      <title>Nassim Home</title>
+      <link>http://localhost:1313/project/nassimhome2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/nassimhome2021/</guid>
+      <description>&lt;p&gt;Implementation of a home energy management system (HEMS) through an open-source operating system called Home Assistant, for intelligent energy management as an everyday application scenario of Nassim Autoconsommation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nassim Autoconsommation</title>
+      <link>http://localhost:1313/project/autoconsommation2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/autoconsommation2019/</guid>
+      <description>&lt;p&gt;A tool written in Python whose goal is to generate a schedule for each household appliance to maximize PV self-consumption. The algorithm shifts the load profile of each appliance according to either historical data or predicted photovoltaic data using meteorological API calls. The tool also includes an Economic tab for feasibility assessments. This tool will be soon shared on a GitHub respiratory as an open source project.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

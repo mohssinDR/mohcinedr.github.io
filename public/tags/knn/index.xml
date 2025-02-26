@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KNN | Mohcine Draou, PhD</title>
+    <link>http://localhost:1313/tags/knn/</link>
+      <atom:link href="http://localhost:1313/tags/knn/index.xml" rel="self" type="application/rss+xml" />
+    <description>KNN</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>KNN</title>
+      <link>http://localhost:1313/tags/knn/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Home Energy Management: A Day-Ahead Machine Learning Approach Using EMHASS for Predictive Temperature Control</title>
+      <link>http://localhost:1313/publication/conference-paper/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
