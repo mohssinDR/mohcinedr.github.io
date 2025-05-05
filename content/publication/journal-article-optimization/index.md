@@ -66,4 +66,8 @@ projects: []
 slides: example
 ---
 
+## Listen to this paper
+<audio controls>
+  <source src="Optimization.wav" type="audio/wav">.
+</audio>
 
