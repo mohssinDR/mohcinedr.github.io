@@ -17,7 +17,11 @@
       <link>http://localhost:1313/publication/journal-article-occupancy/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/journal-article-occupancy/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;listen-to-this-paper&#34;&gt;Listen to this paper&lt;/h2&gt;
+&lt;audio controls&gt;
+  &lt;source src=&#34;Occupany.wav&#34; type=&#34;audio/wav&#34;&gt;.
+&lt;/audio&gt;
+</description>
     </item>
     
     <item>
