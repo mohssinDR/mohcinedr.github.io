@@ -75,6 +75,15 @@ education:
       - Graduation Project: A Python-based decision-making tool for photovoltaic self-consumption (see: Nassim Autoconsommation 2019)
       - Supervisor: BRAKEZ Abderrahim
 work:
+  - position: R&D, Postdoctoral research at IES-UPM
+    company_name: Instituto de Energía Solar Universidad Politécnica de Madrid
+    company_url: 'https://blogs.upm.es/ies/'
+    company_logo: ''
+    date_start: 2026-04-06
+    date_end: ''
+    summary: |2-
+      - My work focuses around the integration of micro-CPV modules into building envelopes as part of next-generation BIPV systems under the supervision of [Prof César Domínguez](https://www.researchgate.net/profile/Cesar-Dominguez-5).
+      - Main tasks include: integration of the system using Energyplus, electrical output modeling using PVlib as well as the life cycle assessment using OpenLCA.  
   - position: R&D, Prediction PLAnning and Management of Energy Performance
     company_name: PPlaME
     company_url: 'https://iresen.org/pplame/'
@@ -161,6 +170,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Life Cycle Assessment (LCA) From Zero to Hero
+    url: https://www.udemy.com/certificate/UC-efd368d9-0dec-4642-a88c-ca0cb2f5a17c/
+    certificate_url: https://www.udemy.com/certificate/UC-efd368d9-0dec-4642-a88c-ca0cb2f5a17c/
+    date: '2026-04-03'
+    awarder: Udemy
+    icon: logo-udemy
   - title: Energy Simulations using Ladybug Tools + Grasshopper
     url: https://www.udemy.com/certificate/UC-7eeaa7d9-65b4-42c1-9506-6291863fe454/
     certificate_url: https://www.udemy.com/certificate/UC-7eeaa7d9-65b4-42c1-9506-6291863fe454/
@@ -212,4 +227,6 @@ awards:
 
 ## About Me
 
-Hey🙋‍♂️! It’s me Mohcine Draou, a PhD Graduate in the field of energy and thermal engineering. My research mainly focuses on energy usage in the residential sector. With the help of my research group, we are trying to optimize the renewable energy system’s integration and usage within green buildings. In this blog, I share my latest scientific Publications, Projects I’m involved in as well as the set of Tools and approaches we are developing.
+I am a postdoctoral researcher at IES-UPM (Madrid), working on the integration of micro-CPV modules into building envelopes as part of next-generation BIPV systems. I hold a PhD in energy and thermal engineering, with a background in renewable energy system integration and demand-side management for net-zero energy buildings.
+
+

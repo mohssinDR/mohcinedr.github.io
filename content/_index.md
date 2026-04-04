@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research mainly focuses on energy usage in the residential sector. With the help of my research group, we are trying to optimize the renewable energy system’s integration and usage within green buildings.
+        My research mainly focuses on energy usage in Buildings. With the help of my research group, we are trying to optimize the renewable energy system’s integration and usage within green buildings.
     design:
       columns: '1'
   - block: collection
