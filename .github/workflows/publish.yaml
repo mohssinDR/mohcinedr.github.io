@@ -70,3 +70,15 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
+
+
+    - name: Clear Hugo Module Cache
+      run: rm -rf /tmp/hugo_cache_runner/
+
+    - name: Build with Hugo
+      env:
+        HUGO_ENVIRONMENT: production
+      run: |
+        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        hugo mod get -u
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
