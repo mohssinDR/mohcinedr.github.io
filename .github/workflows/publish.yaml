@@ -39,7 +39,7 @@ jobs:
     - uses: actions/cache@v3
       with:
         path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}-${{ github.run_number }}
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
         restore-keys: |
           ${{ runner.os }}-hugomod-
     - name: Setup Pages
